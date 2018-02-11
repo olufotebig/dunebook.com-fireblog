@@ -1,3 +1,11 @@
-<button class="btn btn-primary btn-sm">Save</button>
-<input type="text">
-<textarea></textarea>	
+<div>
+	<div class="form-group">
+		<label>Title</label>
+		<input class="form-control" type="text" [(ngModel)]="formModel.title" (change)="update()">	
+	</div>
+	<div class="form-group">
+		<label>Content</label>
+		<textarea class="form-control" [(ngModel)]="formModel.content" (change)="update()"></textarea>	
+	</div>
+
+</div>

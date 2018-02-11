@@ -1,3 +1,6 @@
-<p>
-  Recent posts will be listed here.
-</p>
+<h3>Posts</h3>
+<ul class="list-unstyled">
+	<li class="mb-3 pb-2" *ngFor="let post of posts | async">
+       	<a  href="/post/{{ post.id }}">{{ post.data.title }}</a>
+   	</li>
+</ul>
