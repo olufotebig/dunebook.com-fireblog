@@ -1,0 +1,7 @@
+ul:empty::after {
+	content: "Create a post Luke"
+}
+
+ul li {
+	border-bottom: 1px solid #000;
+}
