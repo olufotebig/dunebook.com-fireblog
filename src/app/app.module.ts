@@ -14,7 +14,6 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import {AuthComponent} from './components/auth/auth.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
